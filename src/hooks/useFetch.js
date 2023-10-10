@@ -40,9 +40,21 @@ const useFetch = (baseUrl) => {
 
     //UPDATE
 
-    const updateRegister = (path, id) =>{
+    const updateRegister = (path, id, data) =>{
         const url = `${baseUrl}${path}/${id}/`
         axios.put(url, data)
+        .then(res => {
+            console.log(res.data)
+            const infoApiUpdate = infoApi.map(element => {
+                if(id === element.id){
+                    return data
+                }else{
+                    return element
+                }
+            })
+            setInfoApi(infoApiUpdate)
+        })
+        .catch(err => console.log(err))
     }
 
     return[infoApi, getApi, createNewRegister, deleteRegister]

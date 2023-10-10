@@ -42,6 +42,7 @@ const useFetch = (baseUrl) => {
 
     const updateRegister = (path, id) =>{
         const url = `${baseUrl}${path}/${id}/`
+        axios.put(url, data)
     }
 
     return[infoApi, getApi, createNewRegister, deleteRegister]

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import useFetch from "./hooks/useFetch"
 
@@ -10,6 +11,12 @@ function App() {
     deleteUserById,
     updateUserById
   ] = useFetch(baseUrl)
+
+  useEffect(() => {
+    getAllUsers('/users')
+  }, [])
+  
+  console.log(users);
 
   return (
 <div>

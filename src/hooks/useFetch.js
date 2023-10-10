@@ -60,3 +60,5 @@ const useFetch = (baseUrl) => {
     return[infoApi, getApi, createNewRegister, deleteRegister]
 
 }
+
+export default useFetch

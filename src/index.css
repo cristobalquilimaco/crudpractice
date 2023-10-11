@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input, button{
+    font-family: inherit
+}
+
+input{
+    outline: none;
+}

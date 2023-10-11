@@ -57,7 +57,7 @@ const useFetch = (baseUrl) => {
         .catch(err => console.log(err))
     }
 
-    return[infoApi, getApi, createNewRegister, deleteRegister]
+    return[infoApi, getApi, createNewRegister, deleteRegister, updateRegister]
 
 }
 

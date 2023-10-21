@@ -1,4 +1,4 @@
-Sistema deregistro de usuarios con CRUD
+Sistema de registro de usuarios con CRUD
 
 Características:
 

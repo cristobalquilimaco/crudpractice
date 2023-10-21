@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     transition: transform 200ms ease;
+    z-index: 1;
 }
 
 .form{
@@ -72,6 +73,7 @@
 .form_btn{
     display: block;
     width: 100%;
+    max-width: 300px;
     font-size: 1.2rem;
     padding: 0.5em 1em;
     border-radius: 0.5em;

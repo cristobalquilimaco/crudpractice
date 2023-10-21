@@ -7,6 +7,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 252, 249);
 }
 
 h2{
@@ -20,4 +21,22 @@ input, button{
 
 input{
     outline: none;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+}
+span{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    margin: 0;
+    padding: 0;
 }

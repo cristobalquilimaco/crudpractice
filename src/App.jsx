@@ -25,7 +25,7 @@ function App() {
   const handleOpenForm = () =>{
     setIsCloseForm(false)
   }
-  
+
   return (
 <div>
   <div className='title__crud'>
